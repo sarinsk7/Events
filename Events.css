@@ -1,0 +1,48 @@
+:root{
+    --main-color: #3867d6;
+    --second-bg-color: #000
+ }
+ body {
+  background: #000000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ section {
+    padding: 2rem 9%;
+ }
+ .Events .Content{
+    text-align: center;
+    padding-top: .1rem;
+    margin: 2rem auto;
+    max-width: 70rem;
+ }
+ .Events .Content h2 {
+    color: aliceblue;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+ }
+ .Events .Content h2 span{
+    color: var(--main-color);
+    font-size: 4.5rem;
+    text-transform: uppercase;
+ }
+ .Events .swiper {
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ }
+ .Events .swiper .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    width: 60%;
+    height: 60%;
+ }
+ .Events .swiper .swiper-slide img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ 
